@@ -64,6 +64,15 @@ R programming language (R core team, 2023) was utilized to perform data manipula
 ## Model Output
 The three classification models logistic regression, decision tree and XG-Boost, were optimised using tuned parameters, tuned weights and empirical threshold values. The optimised models were then trained to develop relationships using the data in the training dataset. Thereafter, the testing dataset is utilised to examine the performance of the trained model in predicting defaults. 
 
+// ** model code is attached in the files 
+1. Data_cleaning_and_Modelling.R
+2. For Method 1: Instance weighing Cost sensitive technique_CSLR.R
+3. For Method 2: Thresholding Cost sensitive technique_CSLA
+4. ROC_plotting.R
+** //
+
+// ** detailed model evaluation with evaluation metrics in the file 'Model Output Evaluation.pdf' ** //
+
 To understand overall model’s performance in differentiating positive and negative classes (i.e. defaults and non-defaults), ROC plot for both the best models from each technique is shown below:
 
 ![image](https://github.com/user-attachments/assets/2647f461-a3c1-4620-8fe8-0ee873e7ae24)
