@@ -1,15 +1,19 @@
 # My MSc Dissertation Research
+A Comparative Study of ‘Cost Sensitive Learning’ Techniques On Machine Learning Models To Decrease Misclassification Costs In Loan Default Prediction.
+
 This is a comparative based study to examine performance of performance of using cost sensitive learning (CSL) techniques in predicting loan defaults. Two approached in cost sensitive learning: instance weighing resampling (CSL – R) and thresholding in algorithm model (CSL – A). These techniques are applied to three machine learning models - Logistic Regression, Decision Trees and Extreme Gradient Boosting (XG-Boost). CSL – R has a superior performance in logistic regression and decision tree models and XG-Boost works well with CSL – A approach. Overall, XG-Boost CSL – A approach was the found as an ideal CSL technique to predict loan defaults. It shows lowest misclassification errors and highest AUC value among the models.
 
 [Keywords]: Loan Default Prediction, Machine Learning, Cost Sensitive Learning, CSL Instance weighing, CSL Thresholding, R 
 
-## A Comparative Study of ‘Cost Sensitive Learning’ Techniques On Machine Learning Models To Decrease Misclassification Costs In Loan Default Prediction.
 
 This study is conducted to compare two cost-sensitive approaches using three machine learning models. The framework proposed has four phases:
-1.	Data Pre-processing
-2.	Resampling the data
-3.	Fitting the model
-4.	Model Evaluation
+1. Literature Review : Identifying research gap & related literature on the topic
+2. Methodology : Creating a structured research methodology for in depth analysis
+3.	Data preparation & modelling : Preparing dataset for ML modelling
+4.	Results : Understanding results of each ML model  
+6.	Analysis : Conclusion of the research
+7.	Research Limitations
+8.	Future research 
 
 The detailed research flow is shown as follows:
 ![image](https://github.com/user-attachments/assets/6b116c63-a8b9-4572-a92c-227f47d9eb5b)
